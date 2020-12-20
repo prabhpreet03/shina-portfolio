@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(./assets/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 110%;
+    transition: .3s;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    background-color: #6793ac;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    font-size: 20px;
+}
+.contact-btn{
+    border: solid white 1px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.navbar a{
+    color: #f3fbfd;
+    text-shadow:1px 1px 10px #2d4455;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 15px;
+    margin-right: 10px;
+}
+/* .banner img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    margin: 0;
+    position: absolute;
+    z-index: -3;
+} */
+.content{
+    margin-left: 20%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.content .info{
+    text-align: left;
+    margin-right: 20%;
+}
+.content .info .name{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #ca1044;
+}
+.content .info .tag-line{
+    font-weight: lighter;
+    font-size: 15px;
+    color: #6793ac;
+}
+.action{
+    text-align: center;
+    margin-top: 100px;
+}
+.action h3{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.action h4{
+    width: fit-content;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.action h4:hover{
+    padding: 5px 20px;
+    transition: .5s;
+}
+.action a{
+    color: #6793ac;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f6efb3;
+    color: #2d4455;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 0;
+}
